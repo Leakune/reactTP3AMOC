@@ -19,7 +19,7 @@ const Button = ({ className, href, children }) => {
   };
 
   return (
-    <button className={className} type="button" class="btn btn-light" onClick={onClick}>{children}</button>
+    <button type="button" class={className} style={{ width: "150px"}} onClick={onClick}>{children}</button>
   );
 };
 

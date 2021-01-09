@@ -20,18 +20,18 @@ export default function Accueil(){
                     <div class="col-sm border" id="animalCrossingAPI">
                         <h2>AnimalCrossing</h2>
                         <p>From the website http://acnhapi.com/, i'll fetch some villagers data and display for each their information</p>
-                        <Button href="/AnimalCrossing" className="item">ACNH API</Button>
+                        <Button href="/AnimalCrossing" className="btn btn-light mx-auto">ACNH API</Button>
                     </div>
                     <div class="col-sm border" id="animaliaAPI">
                         <h2>Animalia</h2>
                         <p>From the website https://www.gbif.org/species/1, i'll fetch some animal from across the world and display for each their information</p>
-                        <Button href="/Animalia" className="item">ANIMALIA</Button>
+                        <Button href="/Animalia" className="btn btn-light mx-auto">ANIMALIA</Button>
                     </div>
                 </div>
                 <div class="row">
                     <h2>Fusion of the 2 APIs</h2>
                     <p>In this part i'll put in relation AnimalCrossing API with Animalia API</p>
-                    <Button href="/Api" className="item">MAIN CONTENT</Button>
+                    <Button href="/Api" className="btn btn-light mx-auto">MAIN CONTENT</Button>
                 </div>
             </div>
         </div>

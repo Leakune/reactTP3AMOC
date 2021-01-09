@@ -25,11 +25,15 @@ export default function Animaux(props){
         return(
             <ul>
                 {animauxCross.map( animal => 
-                <li key={animal.id}>
-                    <p>{animal.name['name-EUen']}</p>
-                    <p>{animal.species}</p>
+                <div key={animal.id} class="border-bottom">
+                    <div>
+                        <label>Name: {animal.name['name-EUen']}</label>
+                    </div> 
+                    <div>
+                        <label>Species: {animal.species}</label>
+                    </div>    
                     <img src={animal.image_uri} alt={animal.species}></img>
-                </li>)
+                </div>)
                 }
             </ul>
         )

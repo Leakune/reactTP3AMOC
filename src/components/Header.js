@@ -4,24 +4,40 @@ import Link from "./Link";
 
 const Header = () => {
   return (
-      
-    <div className="ui secondary pointing menu">
-      <Link href="/" className="item">
-        Home
-      </Link>
-      <Link href="/AnimalCrossing" className="item">
-        AnimalCrossing
-      </Link>
-      <Link href="/Animalia" className="item">
-        Animalia
-      </Link>
-      <Link href="/Api" className="item">
-        Api
-      </Link>
-      <Link href="/All" className="item">
-        All
-      </Link>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <Link href="/" className="navbar-brand">
+                Home
+            </Link>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <Link href="/AnimalCrossing" className="nav-link">
+                            AnimalCrossing
+                        </Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link href="/Animalia" className="nav-link">
+                            Animalia
+                        </Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link href="/Api" className="nav-link">
+                            Api
+                        </Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link href="/All" className="nav-link">
+                            All
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
   );
 };
 

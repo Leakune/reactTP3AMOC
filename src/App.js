@@ -13,7 +13,9 @@ function App() {
   return(
     <div className="App">
       <header className="App-header">
+      <div class="container">
         <Header />
+      </div>
         <Route path="/">
           <Accueil />
         </Route>

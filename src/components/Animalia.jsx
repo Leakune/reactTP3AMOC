@@ -1,6 +1,6 @@
 //import { useState, useEffect } from "react";
 
-export default function Animaux(props){
+export default function Animalia(props){
     //useState
     //let [link, setLink] = useState("")
     // useEffect(() => {

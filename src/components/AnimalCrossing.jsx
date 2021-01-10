@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Animaux(props){
+export default function Animaux(){
     const [animauxCross, setAnimauxCros] = useState([])
     const [error, setError] = useState(null);
     useEffect(() => {

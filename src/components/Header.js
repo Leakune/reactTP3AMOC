@@ -29,11 +29,6 @@ const Header = () => {
                             Api
                         </Link>
                     </li>
-                    <li class="nav-item">
-                        <Link href="/All" className="nav-link">
-                            All
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </div>

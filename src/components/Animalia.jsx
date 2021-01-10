@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function Animalia(props){
+export default function Animalia(){
     //useState
     const [name, setName] = useState(null)
     const [animaux, setAnimaux] = useState(null)

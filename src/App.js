@@ -28,10 +28,6 @@ function App() {
         <Route path="/Api">
           <Api />
         </Route>
-        <Route path="/All">
-          <Accueil />
-          <Api />
-        </Route>
       </header>
     </div>
   )

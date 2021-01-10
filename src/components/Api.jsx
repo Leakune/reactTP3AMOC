@@ -34,7 +34,7 @@ export default function Animalia(){
             )
             
         }
-    }, [animaux, name])
+    }, [name])
     if (error) {
         return <div>Erreur : {error.message}</div>;
     }

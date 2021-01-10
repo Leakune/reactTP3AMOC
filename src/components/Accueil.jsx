@@ -24,7 +24,7 @@ export default function Accueil(){
                     </div>
                     <div class="col-sm border" id="animaliaAPI">
                         <h2>Animalia</h2>
-                        <p>From the website https://www.gbif.org/species/1, i'll fetch some animal from across the world and display for each their information</p>
+                        <p>From the website https://unsplash.com/, i'll fetch some animal from across the world and display their image</p>
                         <Button href="/Animalia" className="btn btn-light mx-auto">ANIMALIA</Button>
                     </div>
                 </div>

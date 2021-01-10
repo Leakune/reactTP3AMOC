@@ -31,7 +31,10 @@ export default function Animaux(props){
                     </div> 
                     <div>
                         <label>Species: {animal.species}</label>
-                    </div>    
+                    </div>
+                    <div>
+                        <label>file-name: {animal['file-name']}</label>
+                    </div>     
                     <img src={animal.image_uri} alt={animal.species}></img>
                 </div>)
                 }
